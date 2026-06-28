@@ -1,1 +1,4 @@
 checkpoints/
+*.pth
+*.pth.tar
+checkpoints/

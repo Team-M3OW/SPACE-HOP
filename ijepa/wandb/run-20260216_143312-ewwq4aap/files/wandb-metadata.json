@@ -1,0 +1,49 @@
+{
+  "os":  "Linux-6.5.0-45-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.11.14",
+  "startedAt":  "2026-02-16T14:33:12.121936Z",
+  "args":  [
+    "--fname",
+    "/home/aac/shared/teams/dtu/mlr-lab/RoboPEPP/ijepa/configs/speedplus_vitb16_ep200.yaml"
+  ],
+  "program":  "/datasets/teams/dtu/mlr-lab/RoboPEPP/ijepa/main.py",
+  "codePath":  "ijepa/main.py",
+  "codePathLocal":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/raktimgg/RoboPEPP.git",
+    "commit":  "3bc2b041fe7e50afbd8827a8cdd042eab938f2bd"
+  },
+  "email":  "arshabbas636@gmail.com",
+  "root":  "/datasets/teams/dtu/mlr-lab/RoboPEPP/ijepa",
+  "host":  "081931ce-1fe1-4cc8-afe0-dc1b7f1503a6-64ff957c8c-x6pmk",
+  "executable":  "/home/aac/miniconda3/envs/fastpose/bin/python3",
+  "cpu_count":  128,
+  "cpu_count_logical":  256,
+  "gpu":  "AMD Radeon Graphics",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "899300249600",
+      "used":  "115363241984"
+    }
+  },
+  "memory":  {
+    "total":  "3246322208768"
+  },
+  "gpu_amd":  [
+    {
+      "id":  "0",
+      "uniqueId":  "0xa3e5fadbb62a1f17",
+      "vbiosVersion":  "113-M3250101-100",
+      "performanceLevel":  "auto",
+      "maxPower":  "1000.0",
+      "series":  "AMD Radeon Graphics",
+      "model":  "0x74a5",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "M3250101",
+      "sclkRange":  "500Mhz - 2100Mhz",
+      "mclkRange":  "900Mhz - 1500Mhz"
+    }
+  ],
+  "writerId":  "9f95x6bqjoi6an1cxc255az8thsba8mj"
+}

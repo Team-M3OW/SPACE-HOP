@@ -1,0 +1,121 @@
+_wandb:
+    value:
+        cli_version: 0.24.1
+        e:
+            8fgg1nrshmja44surjxy7k4ifjbb7u3o:
+                args:
+                    - --fname
+                    - /home/aac/shared/teams/dtu/mlr-lab/RoboPEPP/ijepa/configs/speedplus_vitb16_ep200.yaml
+                codePath: ijepa/main.py
+                codePathLocal: main.py
+                cpu_count: 128
+                cpu_count_logical: 256
+                disk:
+                    /:
+                        total: "899300249600"
+                        used: "115354439680"
+                email: arshabbas636@gmail.com
+                executable: /home/aac/miniconda3/envs/fastpose/bin/python3
+                git:
+                    commit: 3bc2b041fe7e50afbd8827a8cdd042eab938f2bd
+                    remote: https://github.com/raktimgg/RoboPEPP.git
+                gpu: AMD Radeon Graphics
+                gpu_amd:
+                    - id: "0"
+                      maxPower: "1000.0"
+                      mclkRange: 900Mhz - 1500Mhz
+                      model: "0x74a5"
+                      performanceLevel: auto
+                      sclkRange: 500Mhz - 2100Mhz
+                      series: AMD Radeon Graphics
+                      sku: M3250101
+                      uniqueId: "0xa3e5fadbb62a1f17"
+                      vbiosVersion: 113-M3250101-100
+                      vendor: Advanced Micro Devices, Inc. [AMD/ATI]
+                gpu_count: 1
+                host: 081931ce-1fe1-4cc8-afe0-dc1b7f1503a6-64ff957c8c-x6pmk
+                memory:
+                    total: "3246322208768"
+                os: Linux-6.5.0-45-generic-x86_64-with-glibc2.39
+                program: /datasets/teams/dtu/mlr-lab/RoboPEPP/ijepa/main.py
+                python: CPython 3.11.14
+                root: /datasets/teams/dtu/mlr-lab/RoboPEPP/ijepa
+                startedAt: "2026-02-16T13:09:51.862932Z"
+                writerId: 8fgg1nrshmja44surjxy7k4ifjbb7u3o
+        m: []
+        python_version: 3.11.14
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+                - 49
+                - 80
+            "3":
+                - 13
+                - 16
+            "4": 3.11.14
+            "5": 0.24.1
+            "12": 0.24.1
+            "13": linux-x86_64
+data:
+    value:
+        batch_size: 512
+        color_jitter_strength: 0
+        crop_scale:
+            - 0.3
+            - 1
+        crop_size: 224
+        dataset_name: speedplus
+        image_folder: /home/aac/shared/teams/dtu/mlr-lab/speedplusv2/synthetic/images
+        num_workers: 10
+        pin_mem: true
+        root_path: /home/aac/shared/teams/dtu/mlr-lab/speedplusv2/synthetic/train_synthetic.csv
+        use_color_distortion: false
+        use_gaussian_blur: false
+        use_horizontal_flip: false
+logging:
+    value:
+        folder: /home/aac/shared/teams/dtu/mlr-lab/speedplusv2/logs
+        write_tag: jepa_joints_speedplus
+mask:
+    value:
+        allow_overlap: false
+        aspect_ratio:
+            - 0.75
+            - 1.5
+        enc_mask_scale:
+            - 0.85
+            - 1
+        min_keep: 10
+        num_enc_masks: 1
+        num_pred_masks: 4
+        patch_size: 16
+        pred_mask_scale:
+            - 0.15
+            - 0.2
+meta:
+    value:
+        copy_data: false
+        load_checkpoint: false
+        model_name: vit_base
+        pred_depth: 12
+        pred_emb_dim: 384
+        project_name: sat-jepa
+        read_checkpoint: null
+        use_bfloat16: true
+optimization:
+    value:
+        ema:
+            - 0.996
+            - 1
+        epochs: 200
+        final_lr: 1e-06
+        final_weight_decay: 0.4
+        ipe_scale: 1
+        lr: 0.001
+        start_lr: 0.0002
+        warmup: 10
+        weight_decay: 0.04

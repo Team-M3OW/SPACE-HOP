@@ -1,0 +1,11 @@
+{"time":"2026-02-16T14:08:04.466072525Z","level":"INFO","msg":"stream: starting","core version":"0.24.1"}
+{"time":"2026-02-16T14:08:04.848890195Z","level":"INFO","msg":"stream: created new stream","id":"tfzgzbpy"}
+{"time":"2026-02-16T14:08:04.848941722Z","level":"INFO","msg":"handler: started","stream_id":"tfzgzbpy"}
+{"time":"2026-02-16T14:08:04.851942219Z","level":"INFO","msg":"stream: started","id":"tfzgzbpy"}
+{"time":"2026-02-16T14:08:04.85198363Z","level":"INFO","msg":"writer: started","stream_id":"tfzgzbpy"}
+{"time":"2026-02-16T14:08:04.851993585Z","level":"INFO","msg":"sender: started","stream_id":"tfzgzbpy"}
+{"time":"2026-02-16T14:09:44.202539859Z","level":"INFO","msg":"stream: closing","id":"tfzgzbpy"}
+{"time":"2026-02-16T14:09:44.460619222Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-16T14:09:44.55204168Z","level":"INFO","msg":"handler: closed","stream_id":"tfzgzbpy"}
+{"time":"2026-02-16T14:09:44.55426132Z","level":"INFO","msg":"sender: closed","stream_id":"tfzgzbpy"}
+{"time":"2026-02-16T14:09:44.554278645Z","level":"INFO","msg":"stream: closed","id":"tfzgzbpy"}

@@ -1,0 +1,11 @@
+{"time":"2026-02-16T13:00:03.465633124Z","level":"INFO","msg":"stream: starting","core version":"0.24.1"}
+{"time":"2026-02-16T13:00:03.851101117Z","level":"INFO","msg":"stream: created new stream","id":"uubixn2r"}
+{"time":"2026-02-16T13:00:03.85119749Z","level":"INFO","msg":"handler: started","stream_id":"uubixn2r"}
+{"time":"2026-02-16T13:00:03.85384813Z","level":"INFO","msg":"stream: started","id":"uubixn2r"}
+{"time":"2026-02-16T13:00:03.85388192Z","level":"INFO","msg":"writer: started","stream_id":"uubixn2r"}
+{"time":"2026-02-16T13:00:03.853912345Z","level":"INFO","msg":"sender: started","stream_id":"uubixn2r"}
+{"time":"2026-02-16T13:01:33.02357823Z","level":"INFO","msg":"stream: closing","id":"uubixn2r"}
+{"time":"2026-02-16T13:01:33.307315985Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-16T13:01:33.497748985Z","level":"INFO","msg":"handler: closed","stream_id":"uubixn2r"}
+{"time":"2026-02-16T13:01:33.499926593Z","level":"INFO","msg":"sender: closed","stream_id":"uubixn2r"}
+{"time":"2026-02-16T13:01:33.499942016Z","level":"INFO","msg":"stream: closed","id":"uubixn2r"}

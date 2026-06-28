@@ -1,0 +1,38 @@
+robot: tango  
+data:
+  dataset_name: speedplus
+  batch_size: 128
+  color_jitter_strength: 0.5
+  use_color_distortion: true
+  use_gaussian_blur: true
+  use_horizontal_flip: false
+  
+  crop_scale: [0.7, 1.0]
+  crop_size: 224
+  image_folder: speedplusv2/
+  num_workers: 12
+  pin_mem: true
+  root_path: /mnt/external_ssd/ARSH_ARNABI/speedplusv2
+  csv_train: /mnt/external_ssd/ARSH_ARNABI/speedplusv2/synthetic/train_synthetic.csv
+  csv_val: /mnt/external_ssd/ARSH_ARNABI/speedplusv2/synthetic/validation.csv
+  keypoints_path: /mnt/external_ssd/ARSH_ARNABI/speedplusv2/tangoPoints.mat
+
+model:
+  backbone: vit_base
+  pred_depth: 12
+  pred_emb_dim: 384
+  patch_size: 16
+  image_shape: 224
+  nkeypoints: 11  
+  jepa_path: /mnt/external_ssd/ARSH_ARNABI/jepa_joints_speedplus-ep200.pth.tar
+  # urdf_file: null 
+  # joint_mean: null
+  # joint_std: null
+
+training:
+  epochs: 200
+  use_accelerate: true
+  log_wandb: true
+  max_lr: [1e-4, 1e-4, 1e-4] 
+  weight_decay: 1e-6
+  final_div_factor: 1e4

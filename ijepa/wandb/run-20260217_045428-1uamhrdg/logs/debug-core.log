@@ -1,0 +1,15 @@
+{"time":"2026-02-17T04:54:29.201806642Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpr3ynfk8b/port-146946.txt","pid":146946,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2026-02-17T04:54:29.20233818Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":146946}
+{"time":"2026-02-17T04:54:29.202311621Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-146946-147211-3767600306/socket","Net":"unix"}}
+{"time":"2026-02-17T04:54:29.38871286Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2026-02-17T04:54:29.400361637Z","level":"INFO","msg":"handleInformInit: received","streamId":"1uamhrdg","id":"1(@)"}
+{"time":"2026-02-17T04:54:29.948438082Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"1uamhrdg","id":"1(@)"}
+{"time":"2026-02-17T04:54:35.623930754Z","level":"INFO","msg":"connection: cancelling request","id":"1(@)","requestId":"qjjfvpnet4oh"}
+{"time":"2026-02-17T04:56:07.814876205Z","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(@)"}
+{"time":"2026-02-17T04:56:07.815238702Z","level":"INFO","msg":"connection: closing","id":"1(@)"}
+{"time":"2026-02-17T04:56:07.815263208Z","level":"INFO","msg":"server is shutting down"}
+{"time":"2026-02-17T04:56:07.815275517Z","level":"INFO","msg":"connection: closed successfully","id":"1(@)"}
+{"time":"2026-02-17T04:56:07.815405629Z","level":"INFO","msg":"server: listener closed","addr":{"Name":"/tmp/wandb-146946-147211-3767600306/socket","Net":"unix"}}
+{"time":"2026-02-17T04:56:08.186442835Z","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(@)"}
+{"time":"2026-02-17T04:56:08.186455163Z","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(@)"}
+{"time":"2026-02-17T04:56:08.186464256Z","level":"INFO","msg":"server is closed"}

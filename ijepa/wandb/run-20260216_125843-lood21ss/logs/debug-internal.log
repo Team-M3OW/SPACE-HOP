@@ -1,0 +1,11 @@
+{"time":"2026-02-16T12:58:43.758638272Z","level":"INFO","msg":"stream: starting","core version":"0.24.1"}
+{"time":"2026-02-16T12:58:44.224108515Z","level":"INFO","msg":"stream: created new stream","id":"lood21ss"}
+{"time":"2026-02-16T12:58:44.224224416Z","level":"INFO","msg":"handler: started","stream_id":"lood21ss"}
+{"time":"2026-02-16T12:58:44.227058648Z","level":"INFO","msg":"stream: started","id":"lood21ss"}
+{"time":"2026-02-16T12:58:44.227090765Z","level":"INFO","msg":"writer: started","stream_id":"lood21ss"}
+{"time":"2026-02-16T12:58:44.227124956Z","level":"INFO","msg":"sender: started","stream_id":"lood21ss"}
+{"time":"2026-02-16T12:58:50.378296298Z","level":"INFO","msg":"stream: closing","id":"lood21ss"}
+{"time":"2026-02-16T12:58:50.790749226Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-16T12:58:50.892551309Z","level":"INFO","msg":"handler: closed","stream_id":"lood21ss"}
+{"time":"2026-02-16T12:58:50.894930797Z","level":"INFO","msg":"sender: closed","stream_id":"lood21ss"}
+{"time":"2026-02-16T12:58:50.894949825Z","level":"INFO","msg":"stream: closed","id":"lood21ss"}

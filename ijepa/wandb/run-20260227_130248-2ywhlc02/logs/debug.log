@@ -1,0 +1,24 @@
+2026-02-27 13:02:48,059 INFO    MainThread:389245 [wandb_setup.py:_flush():81] Current SDK version is 0.24.1
+2026-02-27 13:02:48,059 INFO    MainThread:389245 [wandb_setup.py:_flush():81] Configure stats pid to 389245
+2026-02-27 13:02:48,059 INFO    MainThread:389245 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-27 13:02:48,060 INFO    MainThread:389245 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /datasets/teams/dtu/mlr-lab/RoboPEPP/ijepa/wandb/run-20260227_130248-2ywhlc02/logs/debug.log
+2026-02-27 13:02:48,061 INFO    MainThread:389245 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /datasets/teams/dtu/mlr-lab/RoboPEPP/ijepa/wandb/run-20260227_130248-2ywhlc02/logs/debug-internal.log
+2026-02-27 13:02:48,062 INFO    MainThread:389245 [wandb_init.py:init():844] calling init triggers
+2026-02-27 13:02:48,062 INFO    MainThread:389245 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'data': {'dataset_name': 'speedplus', 'batch_size': 512, 'color_jitter_strength': 0.0, 'crop_scale': [0.3, 1.0], 'crop_size': 224, 'root_path': '/home/aac/shared/teams/dtu/mlr-lab/speedplusv2/synthetic/train_synthetic.csv', 'image_folder': '/home/aac/shared/teams/dtu/mlr-lab/speedplusv2/', 'num_workers': 10, 'pin_mem': True, 'use_color_distortion': False, 'use_gaussian_blur': False, 'use_horizontal_flip': False}, 'logging': {'folder': '/home/aac/shared/teams/dtu/mlr-lab/speedplusv2/logs_cls', 'write_tag': 'jepa_joints_speedplus'}, 'mask': {'allow_overlap': False, 'aspect_ratio': [0.75, 1.5], 'enc_mask_scale': [0.85, 1.0], 'min_keep': 10, 'num_enc_masks': 1, 'num_pred_masks': 4, 'patch_size': 16, 'pred_mask_scale': [0.15, 0.2]}, 'meta': {'copy_data': False, 'load_checkpoint': False, 'model_name': 'vit_base', 'pred_depth': 12, 'pred_emb_dim': 384, 'read_checkpoint': None, 'use_bfloat16': True, 'project_name': 'sat-jepa'}, 'optimization': {'ema': [0.996, 1.0], 'epochs': 300, 'final_lr': 1e-06, 'final_weight_decay': 0.4, 'ipe_scale': 1.0, 'lr': 0.001, 'start_lr': 0.0002, 'warmup': 10, 'weight_decay': 0.04}, '_wandb': {}}
+2026-02-27 13:02:48,062 INFO    MainThread:389245 [wandb_init.py:init():892] starting backend
+2026-02-27 13:02:48,502 INFO    MainThread:389245 [wandb_init.py:init():895] sending inform_init request
+2026-02-27 13:02:48,512 INFO    MainThread:389245 [wandb_init.py:init():903] backend started and connected
+2026-02-27 13:02:48,514 INFO    MainThread:389245 [wandb_init.py:init():973] updated telemetry
+2026-02-27 13:02:48,514 INFO    MainThread:389245 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-27 13:02:49,215 INFO    MainThread:389245 [wandb_init.py:init():1042] starting run threads in backend
+2026-02-27 13:02:49,691 INFO    MainThread:389245 [wandb_run.py:_console_start():2529] atexit reg
+2026-02-27 13:02:49,691 INFO    MainThread:389245 [wandb_run.py:_redirect():2377] redirect: wrap_raw
+2026-02-27 13:02:49,691 INFO    MainThread:389245 [wandb_run.py:_redirect():2446] Wrapping output streams.
+2026-02-27 13:02:49,692 INFO    MainThread:389245 [wandb_run.py:_redirect():2469] Redirects installed.
+2026-02-27 13:02:49,702 INFO    MainThread:389245 [wandb_init.py:init():1082] run started, returning control to user process
+2026-02-28 03:32:00,876 INFO    MainThread:389245 [wandb_run.py:_finish():2295] finishing run arnabidutta-delhi-technological-university/sat-jepa/2ywhlc02
+2026-02-28 03:32:00,877 INFO    MainThread:389245 [wandb_run.py:_atexit_cleanup():2494] got exitcode: 0
+2026-02-28 03:32:00,878 INFO    MainThread:389245 [wandb_run.py:_restore():2476] restore
+2026-02-28 03:32:00,879 INFO    MainThread:389245 [wandb_run.py:_restore():2482] restore done
+2026-02-28 03:32:01,887 INFO    MainThread:389245 [wandb_run.py:_footer_sync_info():3871] logging synced files

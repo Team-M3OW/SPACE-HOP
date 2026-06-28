@@ -1,0 +1,11 @@
+{"time":"2026-02-16T12:52:19.906958082Z","level":"INFO","msg":"stream: starting","core version":"0.24.1"}
+{"time":"2026-02-16T12:52:20.280985875Z","level":"INFO","msg":"stream: created new stream","id":"vyvvgsjr"}
+{"time":"2026-02-16T12:52:20.281031092Z","level":"INFO","msg":"handler: started","stream_id":"vyvvgsjr"}
+{"time":"2026-02-16T12:52:20.285367451Z","level":"INFO","msg":"stream: started","id":"vyvvgsjr"}
+{"time":"2026-02-16T12:52:20.285415151Z","level":"INFO","msg":"writer: started","stream_id":"vyvvgsjr"}
+{"time":"2026-02-16T12:52:20.285457084Z","level":"INFO","msg":"sender: started","stream_id":"vyvvgsjr"}
+{"time":"2026-02-16T12:52:26.344349347Z","level":"INFO","msg":"stream: closing","id":"vyvvgsjr"}
+{"time":"2026-02-16T12:52:26.811851223Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-16T12:52:26.927322545Z","level":"INFO","msg":"handler: closed","stream_id":"vyvvgsjr"}
+{"time":"2026-02-16T12:52:26.930097569Z","level":"INFO","msg":"sender: closed","stream_id":"vyvvgsjr"}
+{"time":"2026-02-16T12:52:26.930115185Z","level":"INFO","msg":"stream: closed","id":"vyvvgsjr"}

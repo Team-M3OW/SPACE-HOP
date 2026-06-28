@@ -1,0 +1,11 @@
+{"time":"2026-02-16T12:51:38.375609616Z","level":"INFO","msg":"stream: starting","core version":"0.24.1"}
+{"time":"2026-02-16T12:51:38.784974249Z","level":"INFO","msg":"stream: created new stream","id":"hbh753gs"}
+{"time":"2026-02-16T12:51:38.785060557Z","level":"INFO","msg":"handler: started","stream_id":"hbh753gs"}
+{"time":"2026-02-16T12:51:38.7881593Z","level":"INFO","msg":"stream: started","id":"hbh753gs"}
+{"time":"2026-02-16T12:51:38.788203856Z","level":"INFO","msg":"writer: started","stream_id":"hbh753gs"}
+{"time":"2026-02-16T12:51:38.788281972Z","level":"INFO","msg":"sender: started","stream_id":"hbh753gs"}
+{"time":"2026-02-16T12:51:44.910333862Z","level":"INFO","msg":"stream: closing","id":"hbh753gs"}
+{"time":"2026-02-16T12:51:45.306629159Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-16T12:51:45.391081819Z","level":"INFO","msg":"handler: closed","stream_id":"hbh753gs"}
+{"time":"2026-02-16T12:51:45.393565461Z","level":"INFO","msg":"sender: closed","stream_id":"hbh753gs"}
+{"time":"2026-02-16T12:51:45.393583367Z","level":"INFO","msg":"stream: closed","id":"hbh753gs"}

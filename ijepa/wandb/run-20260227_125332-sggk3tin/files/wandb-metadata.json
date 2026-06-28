@@ -1,0 +1,45 @@
+{
+  "os":  "Linux-6.5.0-45-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.11.14",
+  "startedAt":  "2026-02-27T12:53:32.198865Z",
+  "args":  [
+    "--fname",
+    "configs/speedplus_vitb16_ep200.yaml"
+  ],
+  "program":  "/datasets/teams/dtu/mlr-lab/RoboPEPP/ijepa/main.py",
+  "codePath":  "main.py",
+  "codePathLocal":  "main.py",
+  "email":  "arnabiisevolving@gmail.com",
+  "root":  "/datasets/teams/dtu/mlr-lab/RoboPEPP/ijepa",
+  "host":  "24f21eb1-5768-458f-bc69-111165131094-6f8d97fbf5-dgtnb",
+  "executable":  "/home/aac/miniconda3/envs/fastpose/bin/python3",
+  "cpu_count":  128,
+  "cpu_count_logical":  256,
+  "gpu":  "AMD Radeon Graphics",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "899300249600",
+      "used":  "117568942080"
+    }
+  },
+  "memory":  {
+    "total":  "3246322208768"
+  },
+  "gpu_amd":  [
+    {
+      "id":  "0",
+      "uniqueId":  "0x98b78a45d32e1a8b",
+      "vbiosVersion":  "113-M3250101-100",
+      "performanceLevel":  "auto",
+      "maxPower":  "1000.0",
+      "series":  "AMD Radeon Graphics",
+      "model":  "0x74a5",
+      "vendor":  "Advanced Micro Devices, Inc. [AMD/ATI]",
+      "sku":  "M3250101",
+      "sclkRange":  "500Mhz - 2100Mhz",
+      "mclkRange":  "900Mhz - 1500Mhz"
+    }
+  ],
+  "writerId":  "twyzp758xkn9gj79sbl56k1t89wi8gs9"
+}
